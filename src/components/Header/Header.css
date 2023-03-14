@@ -1,0 +1,9 @@
+.header{
+    background: hsl(178, 29%, 51%);
+    width: 100%;
+}
+
+.heading{
+    color: #fff;
+    padding: 2% 0;
+}

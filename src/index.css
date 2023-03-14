@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: hsl(180, 29%, 50%);  /* Primary */
+  --secondary-color: hsl(180, 52%, 96%); /* Background */
+  --tertiary-color: hsl(178, 29%, 51%);   
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --default-font-family: 'League Spartan', sans-serif;
+}
+
+body {
+  margin: 0px auto;
+  font-family: var(--default-font-family);
+  background-color: var(--secondary-color);
+}
