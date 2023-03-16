@@ -1,3 +1,62 @@
-.jobheading{
-    display: none;
+.jobs{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+    padding: 20px 30px;
+    margin: 2% 10%;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+}
+
+.aboutrole{
+    display: flex;
+    padding-top: 15px;
+}
+
+.companylogo{
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+}
+
+.roleinfo{
+    margin-left: 25px;
+    padding-top: 5px;
+}
+
+.companyname{
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.role{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rolesubinfo{
+    opacity: 0.6;
+}
+
+.period{
+    height: 8px;
+    width: 8px;
+    margin-right: 14px;
+    margin-left: 14px;
+    opacity: 0.6;
+}
+
+.rolekeywords{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.keyword{
+    color: var(--primary-color);
+    font-weight: bold;
+    margin: auto 10px;
+    background: var(--secondary-color);
+    padding: 4px 8px;
 }
