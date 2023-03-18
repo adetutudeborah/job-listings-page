@@ -60,3 +60,9 @@
     background: var(--secondary-color);
     padding: 4px 8px;
 }
+
+.keyword:hover{
+    background-color: var(--primary-color);
+    color: #ffff;
+    cursor: pointer;
+}
