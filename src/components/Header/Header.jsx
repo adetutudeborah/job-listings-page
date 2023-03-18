@@ -5,9 +5,17 @@ import "./Header.css";
 function Header() {
     return (
         <div className="header">
-           {/* <img src={headerimg} alt="Header Image" className="headerimg img-fluid"/> */}
-           <h1 className="heading text-center">Job Listings</h1>
+           <div>
+               {/* <img src={headerimg} alt="Header Image" className="headerimg img-fluid"/> */}
+              <h1 className="heading text-center">Job Listings</h1>
+           </div>
+
+           <div className="searchfield">
+                    <input type="text" class="searchinput" placeholder="search by role or programming languages"/>
+           </div> 
         </div>
+
+
      
     )
 }

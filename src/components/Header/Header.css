@@ -1,9 +1,29 @@
 .header{
     background: hsl(178, 29%, 51%);
     width: 100%;
+    margin-bottom: 100px;
 }
 
 .heading{
     color: #fff;
     padding: 2% 0;
 }
+
+.searchfield{
+    text-align: center;
+}
+
+input[type=text]{
+    width: 100%;
+    max-width: 80%;
+    border-radius: 5px;
+    padding: 20px 30px;
+    margin-bottom: -150px;
+    border: 1px solid #ffff;
+    box-shadow: var(--box-shadow);
+}
+
+input[type=text]:focus {
+    outline: none !important;
+    border: 2px solid hsl(178, 29%, 51%);
+  }
