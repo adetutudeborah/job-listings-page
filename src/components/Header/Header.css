@@ -11,6 +11,7 @@
 
 .searchfield{
     text-align: center;
+    width: 100%;
 }
 
 input[type=text]{
@@ -27,3 +28,22 @@ input[type=text]:focus {
     outline: none !important;
     border: 2px solid hsl(178, 29%, 51%);
   }
+
+.clear{
+    color: var(--primary-color);
+    font-weight: bolder;
+    position: absolute;
+    right: 180px;
+    margin-top: 15px;
+}
+
+.clear:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.icon{
+    font-size: 25px;
+    position: relative;
+    top: 4px;
+}

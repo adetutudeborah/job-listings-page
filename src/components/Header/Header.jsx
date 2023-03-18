@@ -11,7 +11,8 @@ function Header() {
            </div>
 
            <div className="searchfield">
-                    <input type="text" class="searchinput" placeholder="search by role or programming languages"/>
+                <p className="clear">Clear <span className="icon">&#215;</span></p>
+               <input type="text" class="searchinput" placeholder="search by role or programming languages"/>
            </div> 
         </div>
 
