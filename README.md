@@ -25,7 +25,14 @@ Users should be able to:
 
 # Screenshot
 
-![](./screenshot.jpg)
+## Desktop Design
+![](/public/design/desktop-design.jpg)
+
+## Active State
+![](/public/design/active-states.jpg)
+
+## Mobile Design and Active state
+![](/public/design/mobile-with-filters.jpg)
 
 # Links
 
