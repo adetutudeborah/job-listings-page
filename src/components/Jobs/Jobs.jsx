@@ -14,7 +14,12 @@ function Jobs (props) {
                 </div>
 
                 <div className="roleinfo">
-                    <h1 className="companyname">{props.item.company}</h1>
+                    <div className="company">
+                        <h1 className="companyname">{props.item.company}</h1>
+                        {props.item.new && <span className="new">new!</span>}
+                        {props.item.featured && <span className="featured">featured</span>}
+                    </div>
+
                     <h2 className="role">{props.item.position}</h2>
 
                     <p className="rolesubinfo">
@@ -29,13 +34,10 @@ function Jobs (props) {
             </div>
            
             <div className="rolekeywords">
-                <p className="keyword">{props.item.role}</p>
-                <p className="keyword">{props.item.level}</p>
-                <p className="keyword">{props.item.languages[0]}</p>
-                <p className="keyword">{props.item.languages[1]}</p>
-                <p className="keyword">{props.item.languages[2]}</p>
-                <p className="keyword">{props.item.tools[0]}</p>
-                <p className="keyword">{props.item.tools[1]}</p>
+                <span className="keyword">{props.item.role}</span>
+                <span className="keyword">{props.item.level}</span>
+                {props.item.languages && <span className="keyword">{props.item.languages}</span>}
+                {props.item.tools && <span className="keyword">{props.item.tools}</span>}
             </div>
         </div>
     )

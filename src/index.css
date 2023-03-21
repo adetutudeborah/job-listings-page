@@ -8,6 +8,7 @@
   --tertiary-color: hsl(178, 29%, 51%);   
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --default-font-family: 'League Spartan', sans-serif;
+  --very-dark-greyish: hsl(180, 14%, 20%);
 }
 
 body {
