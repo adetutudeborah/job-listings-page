@@ -23,15 +23,15 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Filter job listings based on the categories
 
-# Screenshot
+# Designs
 
-## Desktop Design
+## Desktop design
 ![](/public/design/desktop-design.jpg)
 
-## Active State
+## Active state
 ![](/public/design/active-states.jpg)
 
-## Mobile Design and Active state
+## Mobile design and active state
 ![](/public/design/mobile-with-filters.jpg)
 
 # Links
