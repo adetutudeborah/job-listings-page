@@ -1,4 +1,4 @@
-.jobs{
+.jobsContainer{
     display: flex;
     justify-content: space-between;
     background-color: #ffff;
@@ -7,6 +7,10 @@
     border-radius: 5px;
     box-shadow: var(--box-shadow);
 }
+
+.jobsContainerBorderleft {
+    border-left: 5px solid var(--primary-color);
+  }
 
 .aboutrole{
     display: flex;

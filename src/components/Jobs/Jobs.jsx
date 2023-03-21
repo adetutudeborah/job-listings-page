@@ -5,7 +5,7 @@ import "./Jobs.css";
 
 function Jobs (props) {
     return (
-        <div className="jobs">
+        <div className={ props.item.featured ? "jobsContainer jobsContainerBorderleft" : "jobsContainer"}>
 
             <div className="aboutrole">
 

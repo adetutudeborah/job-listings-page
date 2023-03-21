@@ -6,7 +6,7 @@
   --primary-color: hsl(180, 29%, 50%);  /* Primary */
   --secondary-color: hsl(180, 52%, 96%); /* Background */
   --tertiary-color: hsl(178, 29%, 51%);   
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --box-shadow: 0 4px 6px 4px rgba(91,164,164,.2);
   --default-font-family: 'League Spartan', sans-serif;
   --very-dark-greyish: hsl(180, 14%, 20%);
 }
