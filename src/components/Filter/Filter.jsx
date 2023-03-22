@@ -4,7 +4,7 @@ import close from "../../images/icon-remove.svg";
 
 const Filter = ({ keywords, removeKeywords, clearAll }) => {
   return (
-    <div className="header-container">
+    <div className="filterContainer">
       <ul>
         {keywords.map((key, id) => {
           return (
