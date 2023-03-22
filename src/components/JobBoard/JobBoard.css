@@ -15,6 +15,7 @@
 .aboutrole{
     display: flex;
     padding-top: 0.9rem;
+    padding-left: 0.9rem;
 }
 
 .companylogo{
