@@ -76,9 +76,6 @@ npm run dev
 ```
 - Open `http://localhost:5173/` in your browser to view the app
 
-# Deployment
-The Job listings page has been deployed on `Vercel`, and it can be accessed at the following URL: https://job-listings-page-bf8t.vercel.app/
-
 
 # Author
 
