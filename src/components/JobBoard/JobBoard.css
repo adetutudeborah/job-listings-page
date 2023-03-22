@@ -104,22 +104,53 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (min-width: 750px) and (max-width: 1170px) {
+.jobsContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.8rem;
+}
+
+.aboutrole{
+    padding-bottom: 0.6rem;
+}
+
+.rolekeywords{
+    border-top: 1px solid var(--dark-greyish);
+    padding-top: 0.6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left;
+}
+
+.keyword{
+    margin: 0.5rem 0.6rem 0.5rem 0;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+}
+   
+}
+
+@media screen and (max-width: 750px) {
+
 .jobsContainer{
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: #ffff;
     padding: 1rem 1.8rem;
     margin: 15% 10%;
-    border-radius: 5px;
-    box-shadow: var(--box-shadow);
 }
 
 .aboutrole{
     display: block;
     padding-top: 0rem;
     padding-left: 0rem;
+}
+
+.role {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 .companylogo{
@@ -135,59 +166,6 @@
     padding-top: 2rem;
 }
 
-.companyname{
-    color: var(--primary-color);
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-right: 0.8rem;
-}
-
-.company{
-    display: flex;
-    align-items: center;
-}
-
-.new,
-.featured {
-    color: #fff;
-    background-color: var(--primary-color);
-    border-radius: 15px;
-    padding: 0.3rem 0.5rem;
-    font-size: 0.8rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-right: 0.6rem;
-    margin-bottom: 0.5rem;
-    padding-bottom: 0;
-}
-
-.featured {
-    background-color: var(--very-dark-greyish);
-}
-
-.role{
-    font-size: 1.3rem;
-    font-weight: bold;
-    margin-bottom: 0.2rem;
-}
-
-.role:hover{
-    color: var(--primary-color);
-    cursor: pointer;
-}
-
-.rolesubinfo{
-    opacity: 0.6;
-}
-
-.period{
-    height: 0.5rem;
-    width: 0.5rem;
-    margin-right: 0.9rem;
-    margin-left: 0.9rem;
-    opacity: 0.6;
-}
-
 .rolekeywords{
     border-top: 1px solid var(--dark-greyish);
     padding-top: 0.5rem;
@@ -198,10 +176,46 @@
 }
 
 .keyword{
-    margin: 0.5rem 0.6rem;
+    margin: 0.5rem 0.6rem 0.5rem 0;
     padding: 0.3rem 0.5rem;
     border-radius: 5px;
+}
 
 }
 
-  }
+@media screen and (max-width: 380px) {
+
+.jobsContainer{
+    padding: 1rem 1.2rem;
+}
+
+.companyname{
+    margin-right: 0.5rem;
+}
+
+.role {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.period {
+    margin-right: 0.5rem;
+    margin-left: 0.5em;
+}
+}
+
+@media screen and (max-width: 315px) {
+.company{
+    display: block;
+}
+
+.role {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+}

@@ -13,7 +13,7 @@ function App() {
     if (!filterKeywords.includes(data)) {
       setfilterKeywords([...filterKeywords, data]);
     }
-  };
+  }; 
 
   const deleteKeyword = (data) => {
     const newKeywords = filterKeywords.filter((key) => key !== data);
