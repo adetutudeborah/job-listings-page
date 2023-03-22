@@ -27,8 +27,8 @@ const JobBoard = (props) => {
 
         <div className="aboutrole">
 
-            <div className="companylogo">
-            <img src={logo} alt="company-logo" className="companylogo" />
+            <div>
+               <img src={logo} alt="company-logo" className="companylogo" />
             </div>
 
             <div className="roleinfo">

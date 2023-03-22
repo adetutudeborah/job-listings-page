@@ -11,7 +11,7 @@ const Filter = ({ keywords, removeKeywords, clearAll }) => {
             <li key={id}>
               {key}
               <button className="close" onClick={() => removeKeywords(key)}>
-                <img src={close} alt="" />
+                <img src={close} alt="close" className="closeimg"/>
               </button>
             </li>
           );

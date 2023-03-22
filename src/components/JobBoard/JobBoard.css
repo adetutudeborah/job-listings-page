@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     background-color: #ffff;
-    padding: 20px 30px;
+    padding: 1rem 1.8rem;
     margin: 2% 10%;
     border-radius: 5px;
     box-shadow: var(--box-shadow);
@@ -14,23 +14,23 @@
 
 .aboutrole{
     display: flex;
-    padding-top: 15px;
+    padding-top: 0.9rem;
 }
 
 .companylogo{
     border-radius: 50%;
-    height: 90px;
-    width: 90px;
+    height: auto;
+    width: 6rem;
 }
 
 .roleinfo{
-    margin-left: 25px;
-    padding-top: 5px;
+    margin-left: 1.5rem;
+    padding-top: 0.3rem;
 }
 
 .companyname{
     color: var(--primary-color);
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: bold;
     margin-right: 0.8rem;
 }
@@ -59,7 +59,7 @@
 }
 
 .role{
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 
@@ -73,10 +73,10 @@
 }
 
 .period{
-    height: 8px;
-    width: 8px;
-    margin-right: 14px;
-    margin-left: 14px;
+    height: 0.5rem;
+    width: 0.5rem;
+    margin-right: 0.9rem;
+    margin-left: 0.9rem;
     opacity: 0.6;
 }
 
@@ -90,9 +90,9 @@
 .keyword{
     color: var(--primary-color);
     font-weight: bold;
-    margin: auto 10px;
+    margin: auto 0.6rem;
     background: var(--secondary-color);
-    padding: 4px 8px;
+    padding: 0.3rem 0.5rem;
     border-radius: 5px;
 }
 
