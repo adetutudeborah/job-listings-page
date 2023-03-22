@@ -9,6 +9,8 @@
   --box-shadow: 0 4px 6px 4px rgba(91,164,164,.2);
   --default-font-family: 'League Spartan', sans-serif;
   --very-dark-greyish: hsl(180, 14%, 20%);
+  --dark-greyish: hsl(180, 8%, 52%);
+
 }
 
 body {
